@@ -1,0 +1,16 @@
+-- Kick player script
+
+-- Get the local player
+local player = game.Players.LocalPlayer
+
+-- Set the kick message
+local italianKickMessage = "Sarai bannato se continui a hackerare! Avviso [1] Script rilevato: Matsune Hub."
+
+-- Execute the Matsune script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune/main/MatsuneV3.lua"))()
+
+-- Wait for 8 seconds before kicking the player
+wait(8)
+
+-- Kick the player
+player:Kick(italianKickMessage
